@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Happy Birthday to Shusheng Wu !!!!!!</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Little Boxes Menu or Navigation with jQuery - radnomly animate the menu items to show content, accodion like boxes menu" />
+        <meta name="keywords" content="jquery, boxes, menu, navigation, animate"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+        <!--<link href="css/main.css" rel="stylesheet"/>-->
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+                background:#E4FFCF url(wood.jpg) no-repeat top center;
+                font-family:Futura, "Century Gothic", AppleGothic, sans-serif;
+                overflow:hidden;
+            }
+            h1{
+                color:#fff;
+                margin:40px 0px 20px 40px;
+                text-shadow:1px 1px 1px #555;
+                font-weight:normal;
+            }
+            div.back{
+            	text-transform:uppercase;
+            	text-shadow:1px 1px 1px #fff;
+                color:#666;
+                text-decoration:none;
+                font-size:16px;
+                position:absolute;
+                bottom:5px;
+                right:5px;
+            }
+            .reference{
+                position:absolute;
+                bottom:5px;
+                left:5px;
+            }
+            .reference p a, a.back{
+                text-transform:uppercase;
+                text-shadow:1px 1px 1px #fff;
+                color:#666;
+                text-decoration:none;
+                font-size:16px;
+            }
+            .reference p a:hover, a.back:hover{
+                color:#000;
+            }
+            
+            /* code for animated blinking cursor */
+		    #typed-cursor{
+                color:#fff;
+			    opacity: 1;
+			    font-weight: 100;
+			    -webkit-animation: blink 0.7s infinite;
+			    -moz-animation: blink 0.7s infinite;
+			    -ms-animation: blink 0.7s infinite;
+			    -o-animation: blink 0.7s infinite;
+			    animation: blink 0.7s infinite;
+		    }
+		    @-keyframes blink{
+			    0% { opacity:1; }
+			    50% { opacity:0; }
+			    100% { opacity:1; }
+		    }
+		    @-webkit-keyframes blink{
+			    0% { opacity:1; }
+			    50% { opacity:0; }
+			    100% { opacity:1; }
+		    }
+		    @-moz-keyframes blink{
+			    0% { opacity:1; }
+			    50% { opacity:0; }
+			    100% { opacity:1; }
+		    }
+		    @-ms-keyframes blink{
+			    0% { opacity:1; }
+			    50% { opacity:0; }
+			    100% { opacity:1; }
+		    }
+		    @-o-keyframes blink{
+			    0% { opacity:1; }
+			    50% { opacity:0; }
+			    100% { opacity:1; }
+		    }
+        </style>
+    </head>
+    <body>
+        <div class="title">
+            <h1>Happy Birthday to Shusheng Wu !!!!!!</h1>
+        </div>
+        <div id="content">
+            <div class="wordsToYou">
+			    <span id="typed"></span>
+            </div>
+
+            <div class="back">&copy <a class="back" href="mailto:luxi.feng@outlook.com">LuxiFeng</a> 2014 With Help Of <a class="back" href="http://tympanus.net/codrops/2010/05/18/little-boxes-menu-with-jquery">Codrops</a> And <a class="back" href="http://www.mattboldt.com/demos/typed-js/">Matt Boldt</a></div>
+            <div id="littleBoxes" class="littleBoxes">
+                <div class="boxlink bg1" style="top:0px;left:0px;">
+                    <a href="">一画</a>
+                    <div class="boxcontent">
+                       <p>这是千！纸！鹤！</p>
+                       <pre style="font-size:9px;">
+                                                ;o;         
+                                               ;$;
+                                              ;$$;
+                                             ;$$;
+                                            ;$$$ 
+                                           $$$$;
+                         o!!!             *$$$;  
+                        !!!$$$           **$$$;   
+                       ;!!$*$o          ***$$;    
+                       !** $$oo       o*****$;   
+          !!!!;       !;   $o**      oo*****;     
+              !!oooooo!    &****oooooooooo!!!!!!!!!!!!!oo
+                 ;oooooooo$&****ooooooo!!!!!!!!!!!! 
+                    ;!!o$$$$*****oooo!!!!!!!!;
+                        $$$&*****oo!!!!!
+                        $$$$*****o$$$$$
+                        $$$*****$$$$$$
+                        $$$****$$$$$$
+                        o$$**$$$$$$
+                         $ *$$o 
+                       </pre>
+                    </div>
+                </div>
+                <div class="bg5" style="background-position:-90px 0;top:0px;left:95px;"></div>
+                <div class="bg5" style="background-position:-180px 0;top:0px;left:190px;"></div>
+                <div class="bg5" style="background-position:-270px 0;top:0px;left:285px;"></div>
+
+                <div class="bg5" style="background-position:0 -90px;top:95px;left:0px;"></div>
+                <div class="boxlink bg2" style="top:95px;left:95px;">
+                    <a href="">一句</a>
+                    <div class="boxcontent">
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个朋友说，</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你走，我不送你；</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你来，无论多大风多大雨，</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我要去接你。</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我最赏识那种心情。</p>
+                        <br />
+                        <p>
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           ——梁实秋《送行》
+                        </p>
+                    </div>
+                </div>
+                <div class="bg5" style="background-position:-180px -90px;top:95px;left:190px;"></div>
+                <div class="bg5" style="background-position:-270px -90px;top:95px;left:285px;"></div>
+
+                <div class="bg5" style="background-position:0 -180px;top:190px;left:0px;"></div>
+                <div class="bg5" style="background-position:-90px -180px;top:190px;left:95px;"></div>
+                <div class="boxlink bg3" style="top:190px;left:190px;">
+                    <a href="">一答</a>
+                    <div class="boxcontent">
+                        <p><strong>Q:&nbsp;</strong>Wi-Fi是什么的缩写？</p>
+	        <br />
+	        <p><strong>A:&nbsp;</strong>嗯，其实这是一个冷知识......</p>
+	        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 0.&nbsp;什么是Wi-Fi？</p>
+	        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 1.&nbsp;Wi-Fi就是无线网啦，我是离开Wi-Fi会死星人啦...</p>
+	        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 2.&nbsp;XX百科说Wi-Fi是Wireless&nbsp;Fidelity (无线保真)的缩写...</p>
+	        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level 3.&nbsp;Wi-Fi就是Wi-Fi，不是缩写，是字母拼凑，仅代替拗口的专业术语以便推广，没有更多的意义啦~</p>
+                    </div>
+                </div>
+                <div class="bg5" style="background-position:-270px -180px;top:190px;left:285px;"></div>
+
+                <div class="bg5" style="background-position:0 -270px;top:285px;left:0px;"></div>
+                <div class="bg5" style="background-position:-90px -270px;top:285px;left:95px;"></div>
+                <div class="bg5" style="background-position:-180px -270px;top:285px;left:190px;"></div>
+                <div class="boxlink bg4" style="top:285px;left:285px;">
+                    <a href="">关于</a>
+                    <div class="boxcontent">
+                        <p>这是给亲爱的可爱的德智体美育全面发展的小伙伴吴书生童鞋的23岁生日礼物~~</p>
+                        <br />
+                        <p>p.s.</p>
+                        <p>感谢HTML5技术呈现的华丽前端</p>
+                        <p>感谢Codrops和Matt Boldt的工作</p>
+                        <p>感谢互联网开放、平等、协作、分享的精神</p>
+                        <br />
+                        <p>请使用支持HTML5的非手机浏览器浏览本页</p>
+                        <br />
+                        <p><small>最终解释权归本人所有</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	    <script type="text/javascript" src="js/typed.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                /* object to save the initial positions of each box */
+                var divinfo = {"initial": []};
+                /* index of the selected / clicked box */
+                var current = -1;
+
+                $("#typed").typed({
+                    strings: ["……我们每个人生在世界上都是孤独的。每个人都被囚禁在一座铁塔里，只能靠一些符号同别人传达自己的思想；而这些符号并没有共同的价值，因此它们的意义是模糊的、不确定的。我们非常可怜地想把自己心中的财富传送给别人，但是他们却没有接受这些财富的能力。因此我们只能孤独地行走，尽管身体互相依傍却并不在一起，既不了解别的人也不能为别人所了解。我们好象住在异国的人。对于这个国家的语言懂得非常少，虽然我们有各种美妙的、深奥的事情要说，却只能局限于会话手册上那几句陈腐、平庸的话。我们的脑子里充满了各种思想，而我们能说的只不过是象“园丁的姑母有一把伞在屋子里”这类话。 ——毛姆《月亮和六个便士》 …………………………………………………………即便人生而孤独，但是仍愿你懂得我的感激和祝福。"],
+                    typeSpeed: 100,
+                    backDelay: 500,
+                    loop: false,
+                    // defaults to false for infinite loop
+                    loopCount: false,
+                    callback: function () { foo(); }
+                });
+
+                function foo() { console.log("Callback"); }
+
+                /* we save the index,top and left of each one of the boxes */
+                $('#littleBoxes > div').each(function(){
+                    var $this = $(this);
+                    var initial = {
+                                'index' : $this.index(),
+                                'top'     : $this.css('top'),
+                                'left'     : $this.css('left')
+                    };
+                    divinfo.initial.push(initial);
+                });
+
+                /* clcik event for the anchors inside of the boxes */
+                $('#littleBoxes a').bind('click',function(e){
+                        var $this         = $(this);
+                        var $currentBox    = $this.parent();
+                        /* set a z-index lower than all the other boxes,
+                        to see the other boxes animation on the top*/
+                        $currentBox.css('z-index','1');
+
+                        /* if we are clicking on a expanded box : */
+                        if(current == $currentBox.index()){
+                            /* put it back (decrease width,height, and set the top and left like it was before).
+                            the previous positions are saved in the divinfo obj*/
+                            $currentBox.stop().animate({
+                                    'top'         : divinfo.initial[$currentBox.index()].top,
+                                    'left'        : divinfo.initial[$currentBox.index()].left,
+                                    'width'     : '90px',
+                                    'height'    : '90px'
+                            },800,'easeOutBack').find('.boxcontent').fadeOut();
+
+
+                            $('#littleBoxes > div').not($currentBox).each(function(){
+                                var $ele         = $(this);
+                                var elemTop     = divinfo.initial[$ele.index()].top;
+                                var elemLeft     = divinfo.initial[$ele.index()].left;
+                                $ele.stop().show().animate({
+                                    'top'         : elemTop,
+                                    'left'        : elemLeft,
+                                    'opacity'    : 1
+                                },800);
+                            });
+                            current = -1;
+                        }
+                        /* if we are clicking on a small box : */
+                        else{
+                            /* randomly animate all the other boxes.
+                            Math.floor(Math.random()*601) - 150 gives a random number between -150 and 450.
+                            This range is considering the initial lefts/tops of the elements. It's not the exact right
+                            range, since we would have to calculate the range based on each one of the boxes. Anyway, it
+                            fits our needs...
+                            */
+                            $('#littleBoxes > div').not($currentBox).each(function(){
+                                var $ele = $(this);
+                                $ele.stop().animate({
+                                    'top' : (Math.floor(Math.random()*601) - 150) +'px',
+                                    'left': (Math.floor(Math.random()*601) - 150) +'px',
+                                    'opacity':0
+                                },800,function(){
+                                    $(this).hide();
+                                });
+                            });
+
+                            /* expand the clicked one. Also, fadeIn the content (boxcontent)
+                            if you want it to fill the space of the littleBoxes container,
+                            then these are the right values */
+                            var newwidth     = 379;
+                            var newheight     = 379;
+                            $currentBox.stop().animate({
+                                'top'     : '0px',
+                                'left'    : '0px',
+                                'width' : newwidth +'px',
+                                'height': newheight+'px'
+                            },800,'easeOutBack',function(){
+                                current = $currentBox.index();
+                                $(this).find('.boxcontent').fadeIn();
+                            });
+
+
+                        }
+                        e.preventDefault();
+                });
+            });
+        </script>
+        
+	    <script>
+	    $(function () {
+
+	        
+
+	    });
+	    </script>
+    </body>
+</html>
